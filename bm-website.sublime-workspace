@@ -1,0 +1,1021 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"overfl",
+				"overflow-x"
+			],
+			[
+				"ta",
+				"ta:l	text-align:left"
+			],
+			[
+				"tt",
+				"tt:c	text-transform:capitalize"
+			],
+			[
+				"feed",
+				"feed_item"
+			],
+			[
+				"bdrs",
+				"bdrs	border-radius"
+			],
+			[
+				"XML",
+				"XMLHttpRequest"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"lt",
+				"ltBlue"
+			],
+			[
+				"cta",
+				"CTA"
+			],
+			[
+				"phon",
+				"horPhone"
+			],
+			[
+				"def",
+				"defaultLineHeight"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"defa",
+				"defaultSize"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"header",
+				"headerFont"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"mock-",
+				"menu-mock-drafts"
+			],
+			[
+				"list-",
+				"list-style-type"
+			],
+			[
+				"default",
+				"defaultLineHeight"
+			],
+			[
+				"h1",
+				"h1Font"
+			],
+			[
+				"defau",
+				"defaultPixelBase"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "public/js/_plugins.js",
+			"settings":
+			{
+				"buffer_size": 28264,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 347.0,
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"gist",
+				"Gist: Insert Gist"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"fetch",
+				"Fetch: Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"packages",
+				"Package Control: List Packages"
+			],
+			[
+				"plu",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"update",
+				"Gist: Update File"
+			],
+			[
+				"open gist",
+				"Gist: Open Gist"
+			],
+			[
+				"git",
+				"Git: Commit history"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"copy",
+				"File: Copy as Tag style"
+			],
+			[
+				"insert",
+				"Gist: Insert Gist"
+			],
+			[
+				"public",
+				"Gist: Create Public Gist"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"snippets",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"brows",
+				"SFTP: Browse Server…"
+			],
+			[
+				"bro",
+				"SFTP: Browse Server…"
+			],
+			[
+				"server",
+				"SFTP: Browse Server…"
+			],
+			[
+				"brose",
+				"SFTP: Browse Server…"
+			],
+			[
+				"fetc",
+				"Fetch: File"
+			],
+			[
+				"fet",
+				"Fetch: File"
+			],
+			[
+				"tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"tidy",
+				"Tidy CSS"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"markdon",
+				"Set Syntax: Markdown"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"two",
+				"Snippet: two-column-grid"
+			],
+			[
+				"two-co",
+				"Snippet: two-column-grid"
+			],
+			[
+				"testing",
+				"Snippet: Testing default blockquote"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Bootstrap breadcrumb"
+			],
+			[
+				"column",
+				"Snippet: Bootstrap basic two column grid"
+			],
+			[
+				"nav",
+				"Snippet: Bootstrap navigation bar"
+			],
+			[
+				"vint",
+				"Snippet: Bootstrap tabbable navigation tabs"
+			],
+			[
+				"repo",
+				"Package Control: Add Repository"
+			],
+			[
+				"",
+				"Package Control: Add Repository"
+			],
+			[
+				"map",
+				"SFTP: Map to Remote…"
+			],
+			[
+				"title",
+				"Convert Case: Title Case"
+			],
+			[
+				"encode",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"css",
+				"HTML: Encode Special Characters"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/brettmarshall/Dropbox/bm-website/CNAME",
+		"/Users/brettmarshall/Dropbox/bm-website/collections/projects/asymca.liquid",
+		"/Users/brettmarshall/Dropbox/bm-website/templates/projects.liquid",
+		"/Users/brettmarshall/Dropbox/bm-website/collections/projects/rock.liquid",
+		"/Users/brettmarshall/Dropbox/bm-website/public/styles/sass/_modules.scss",
+		"/Users/brettmarshall/Dropbox/bm-website/templates/layouts/posts.liquid",
+		"/Users/brettmarshall/Dropbox/bm-website/templates/layouts/projects.liquid",
+		"/Users/brettmarshall/Dropbox/bm-website/templates/layouts/layout.liquid",
+		"/Users/brettmarshall/Dropbox/bm-website/collections/blog/my-toolkit.md",
+		"/Users/brettmarshall/Dropbox/bm-website/collections/blog/generating-aha-moments.md",
+		"/Users/brettmarshall/Dropbox/bm-website/collections/blog/sprites-png-reduction.md",
+		"/Users/brettmarshall/Dropbox/bm-website/templates/layouts/home.liquid",
+		"/Users/brettmarshall/Dropbox/bm-website/templates/layouts/full.liquid",
+		"/Users/brettmarshall/Dropbox/bm-website/templates/includes/head.liquid",
+		"/Users/brettmarshall/Dropbox/bm-website/templates/layouts/demos.liquid",
+		"/Users/brettmarshall/Dropbox/bm-website/templates/rss.liquid",
+		"/Users/brettmarshall/Dropbox/bm-website/collections/blog/instagram-feed.md",
+		"/Users/brettmarshall/Dropbox/bm-website/sitemap.xml",
+		"/Users/brettmarshall/Dropbox/bm-website/converted-html/rss.xml",
+		"/Users/brettmarshall/Dropbox/bm-website/collections/blog/the-audio-element.md",
+		"/Users/brettmarshall/Dropbox/bm-website/CNAME.txt",
+		"/Users/brettmarshall/Dropbox/bm-website/converted-html/CNAME.txt",
+		"/Users/brettmarshall/Dropbox/bm-website/collections/blog/example-post.md",
+		"/Users/brettmarshall/Dropbox/bm-website/public/styles/sass/_base.scss",
+		"/Users/brettmarshall/Dropbox/bm-website/public/js/custom.js",
+		"/Users/brettmarshall/Dropbox/bm-website/public/styles/sass/_home.scss",
+		"/Users/brettmarshall/Dropbox/bm-website/collections/projects/mission-to-children.liquid",
+		"/Users/brettmarshall/Dropbox/bm-website/collections/projects/brad-corrigan.liquid",
+		"/Users/brettmarshall/Dropbox/bm-website/collections/projects/sundance.liquid",
+		"/Users/brettmarshall/Dropbox/bm-website/collections/projects/ten8tech.liquid",
+		"/Users/brettmarshall/Dropbox/bm-website/collections/projects/case-crown.liquid",
+		"/Users/brettmarshall/Dropbox/bm-website/collections/projects/31bits.liquid",
+		"/Users/brettmarshall/Downloads/google-code-prettify/run_prettify.js",
+		"/Users/brettmarshall/Dropbox/bm-website/templates/layouts/project-posts.liquid",
+		"/Users/brettmarshall/Dropbox/bm-website/.githubsettings",
+		"/Users/brettmarshall/Dropbox/bm-website/templates/blog.liquid",
+		"/Users/brettmarshall/Dropbox/bm-website/templates/contact.liquid",
+		"/Users/brettmarshall/Dropbox/bm-website/templates/about.liquid",
+		"/Users/brettmarshall/Dropbox/bm-website/collections/projects/sfc.liquid",
+		"/Users/brettmarshall/Dropbox/bm-website/templates/index.liquid",
+		"/Users/brettmarshall/Dropbox/bm-website/mixture.json",
+		"/Users/brettmarshall/Dropbox/bm-website/.htaccess",
+		"/Users/brettmarshall/Dropbox/bm-website/public/styles/sass/_typography.scss",
+		"/Users/brettmarshall/Dropbox/bm-website/templates/includes/header.liquid",
+		"/Users/brettmarshall/Dropbox/bm-website/templates/includes/comments.liquid",
+		"/Users/brettmarshall/Dropbox/bm-website/templates/includes/navigation.liquid",
+		"/Users/brettmarshall/Dropbox/bm-website/templates/includes/footer.liquid",
+		"/Users/brettmarshall/Downloads/prism.css",
+		"/Users/brettmarshall/Dropbox/bm-website/public/styles/sass/main.scss",
+		"/Users/brettmarshall/Dropbox/bm-website/public/styles/sass/_footer.scss",
+		"/Users/brettmarshall/Dropbox/bm-website/public/styles/sass/_header.scss",
+		"/Users/brettmarshall/Downloads/google-code-prettify 3/styles/desert.css",
+		"/Users/brettmarshall/Dropbox/bm-website/public/styles/sass/_prism.scss",
+		"/Users/brettmarshall/Dropbox/bm-website/public/styles/sass/_mixins.scss",
+		"/Users/brettmarshall/Dropbox/bm-website/public/js/custom.mix.js",
+		"/Users/brettmarshall/Downloads/google-code-prettify/prettify.css",
+		"/Users/brettmarshall/Dropbox/bm-website/public/js/vendors.js",
+		"/Users/brettmarshall/Downloads/google-code-prettify 3/src/lang-css.js",
+		"/Users/brettmarshall/Dropbox/bm-website/public/js/_plugins.js",
+		"/Users/brettmarshall/Dropbox/bm-website/public/js/_main.js",
+		"/Users/brettmarshall/Dropbox/bm-website/public/styles/sass/_variables.scss",
+		"/Users/brettmarshall/Downloads/prism (2).css",
+		"/Users/brettmarshall/Downloads/prism (2).js",
+		"/Users/brettmarshall/Downloads/google-code-prettify 3/src/prettify.css",
+		"/Users/brettmarshall/Dropbox/bm-website/collections/demos/audio-element-demo.liquid",
+		"/Users/brettmarshall/Dropbox/bm-website/public/styles/sass/_layout.scss",
+		"/Users/brettmarshall/Downloads/jquery.mobile.custom/jquery.mobile.custom.min.js",
+		"/Users/brettmarshall/Dropbox/bm-website/collections/demos/the-audio-element-demo.liquid.md",
+		"/Users/brettmarshall/Dropbox/bm-website/collections/demos/the-audio-element-demo.md",
+		"/Users/brettmarshall/Dropbox/bm-website/collections/demos/the-audio-element/the-audio-element-demo.md",
+		"/Users/brettmarshall/Dropbox/bm-website/collections/blog/example-post-3.md",
+		"/Users/brettmarshall/Downloads/highlight/highlight.pack.js",
+		"/Users/brettmarshall/Downloads/highlight/styles/monokai_sublime.css",
+		"/Users/brettmarshall/Dropbox/bm-website/collections/blog/the-audio-element.liquid.md",
+		"/Users/brettmarshall/Dropbox/bm-website/collections/projects/mission-to-children",
+		"/Applications/MAMP/htdocs/brett_marshall_new/wp-content/themes/brett_marshall/templates/content-home.php",
+		"/Applications/MAMP/htdocs/brett-marshall-2013/wp-content/themes/bm_theme/templates/content-home.php",
+		"/Applications/MAMP/htdocs/ajax-testing/js/main.js",
+		"/Users/brettmarshall/Dropbox/bm-website/collections/blog/example-post-2.md",
+		"/Users/brettmarshall/Downloads/prism (1).js",
+		"/Users/brettmarshall/Downloads/prism (1).css",
+		"/Users/brettmarshall/Downloads/prism.js",
+		"/Users/brettmarshall/Dropbox/bm-website/public/styles/sass/_pretty.scss",
+		"/Users/brettmarshall/Downloads/google-code-prettify/prettify.js",
+		"/Users/brettmarshall/Downloads/google-code-prettify 2/js-modules/numberLines.js",
+		"/Users/brettmarshall/Downloads/google-code-prettify 2/styles/desert.css",
+		"/Users/brettmarshall/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/brettmarshall/Dropbox/bm-website/styles/sass/_base.scss",
+		"/Users/brettmarshall/Downloads/webfontkit-20131123-042754/generator_config.txt",
+		"/Users/brettmarshall/Downloads/webfontkit-20131123-042754/stylesheet.css",
+		"/Users/brettmarshall/Dropbox/bm-website/public/js/_custom.mix.js",
+		"/Users/brettmarshall/Dropbox/bm-website/public/styles/main.css",
+		"/Users/brettmarshall/Dropbox/bm-website/bm-website.sublime-project",
+		"/Users/brettmarshall/Dropbox/bm-website/build/mixture.json",
+		"/Users/brettmarshall/Dropbox/bm-website/collections",
+		"/Users/brettmarshall/Dropbox/bm-website/templates/includes/sidebar.liquid",
+		"/Users/brettmarshall/Dropbox/bm-website/templates/layouts/blog.liquid",
+		"/Users/brettmarshall/Dropbox/bm-website/templates/layouts/post.liquid",
+		"/Users/brettmarshall/Dropbox/bm-website/templates/model.liquid",
+		"/Users/brettmarshall/Dropbox/bm-website/models/_global.json",
+		"/Users/brettmarshall/Dropbox/bm-website/models/project.json",
+		"/Users/brettmarshall/Desktop/mixture-testing/templates/layouts/blog.liquid",
+		"/Users/brettmarshall/Desktop/mixture-testing/templates/layouts/layout.liquid",
+		"/Users/brettmarshall/Desktop/mixture-testing/public/js/main.js",
+		"/Users/brettmarshall/Desktop/mixture-testing/collections/blog/test-post.md",
+		"/Users/brettmarshall/Desktop/mixture-testing/templates/index.liquid",
+		"/Users/brettmarshall/Desktop/mixture-testing/templates/includes/navigation.liquid",
+		"/Users/brettmarshall/Desktop/mixture-testing/mixture.json",
+		"/Applications/MAMP/htdocs/facebook/css/main.less",
+		"/Applications/MAMP/htdocs/facebook/index.html",
+		"/Applications/MAMP/htdocs/facebook/js/main.js",
+		"/Applications/MAMP/htdocs/ajax-testing/mixture.json",
+		"/Applications/MAMP/htdocs/ajax-testing/index.html",
+		"/Applications/MAMP/htdocs/mix_demo/wp-content/themes/boilerplate/assets/sass/main.scss",
+		"/Applications/MAMP/htdocs/mix_demo/mixture.json",
+		"/Users/brettmarshall/Desktop/mix_demo/mixture.json",
+		"/Applications/MAMP/htdocs/mix_demo/compass/config.rb",
+		"/Users/brettmarshall/Downloads/icons57386/style.css",
+		"/Applications/MAMP/htdocs/football_blog/wp-content/themes/roots/assets/less/_header.less",
+		"/Applications/MAMP/htdocs/football_blog/wp-content/themes/roots/assets/less/_global.less",
+		"/Applications/MAMP/htdocs/football_blog/wp-content/themes/roots/assets/less/_buttons.less",
+		"/Applications/MAMP/htdocs/football_blog/wp-content/themes/roots/assets/css/less/bootstrap.less",
+		"/Applications/MAMP/htdocs/football_blog/wp-content/themes/roots/assets/less/main.less",
+		"/Applications/MAMP/htdocs/football_blog/wp-content/themes/roots/assets/less/_base.less",
+		"/Applications/MAMP/htdocs/football_blog/wp-content/themes/roots/assets/css/css/main.min.css",
+		"/Applications/MAMP/htdocs/football_blog/wp-content/themes/roots/assets/less/_footer.less",
+		"/Applications/MAMP/htdocs/football_blog/wp-content/themes/roots/assets/less/_forum.less",
+		"/Applications/MAMP/htdocs/football_blog/wp-content/themes/roots/lib/scripts.php"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"<project>",
+			"/Applications/MAMP/htdocs/football_blog/wp-content/themes/roots",
+			"/Applications/MAMP/htdocs/football_blog/wp-content/themes/roots/members",
+			"/Applications/MAMP/htdocs/football_blog/wp-content/themes/roots"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"caption",
+			"<pre>",
+			"play",
+			">",
+			"<",
+			"keep-all",
+			"addClass",
+			"all, 0.2s",
+			"@include transition(all, 0.2s);",
+			".logo",
+			":empty",
+			"opacity:1;",
+			"opacity:0;",
+			".blog-item",
+			"0.2s",
+			"post",
+			".blog-post",
+			"teal-dark",
+			"blue",
+			"#297eb7",
+			"#34b7ad",
+			"webkit-",
+			"webkit",
+			"width, 0.3s",
+			"http://thecrstudio",
+			"<li></li>",
+			"$body",
+			"1.5",
+			"2em",
+			"1of3",
+			"p>",
+			"p",
+			"#ccc",
+			"solid",
+			"brad",
+			"sundance",
+			"casecrown",
+			"brad",
+			"<li>",
+			"div",
+			"sundance",
+			"<span>",
+			"51",
+			"<img src=\"{{ 'sundance-thumb.jpg' | asset_url }}\" />",
+			"1",
+			"2",
+			"port-item",
+			"li",
+			"ul",
+			"                <h5 class=\"project-name\">Sundance Organics</h5>\n",
+			"                <div class=\"overlay\"></div>\n",
+			"            </a>\n",
+			"            <a href=\"#\">\n",
+			"port-item",
+			"            <a href=\"#\">\n                <div class=\"overlay\"></div>\n                <h5 class=\"project-name\">Sundance Organics</h5>\n                <img src=\"{{ 'sundance-thumb.jpg' | asset_url }}\" />\n            </a>",
+			"204",
+			"\" |",
+			"315",
+			"327",
+			"ul",
+			"{{",
+			"| image_tag",
+			"<li class=\"port-item\"><a href=\"#\">",
+			"297EB7",
+			"650",
+			"green",
+			"teal",
+			"0.5",
+			"h2",
+			"h3",
+			"1.5em",
+			" | html_encode }}",
+			"uri_encode",
+			"li.L1, li.L3, li.L5, li.L7, li.L9",
+			"code",
+			"pre",
+			"pre.",
+			"pre",
+			"30%",
+			"@",
+			"indent",
+			"indentation",
+			"spaces",
+			"indent",
+			"indentation",
+			"ul",
+			"php",
+			"';",
+			"url('",
+			"commited",
+			"audo",
+			"public",
+			"container",
+			"picture",
+			"feed_item",
+			"message",
+			"name",
+			"description",
+			"picture",
+			"value.picture",
+			"description",
+			"$('#container')",
+			"wp-content/themes/boilerplate/",
+			"pic-menu",
+			"css",
+			"icons",
+			"../css/less",
+			"import",
+			"headerFont",
+			"ubuntu",
+			"forums",
+			"ubuntu",
+			"@",
+			"ubuntu",
+			"headerFont",
+			"sans",
+			"ubuntu",
+			"@",
+			"@headingFont",
+			"@arvo",
+			"defaultFont",
+			"headerFont",
+			"headingFont",
+			"arvo",
+			"Arvo",
+			"magni",
+			"@",
+			"search"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "public/js/_plugins.js",
+					"settings":
+					{
+						"buffer_size": 28264,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7085,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.git":
+	{
+		"height": 106.0
+	},
+	"output.sftp":
+	{
+		"height": 106.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"plugin",
+				"public/js/_plugins.js"
+			],
+			[
+				"",
+				"public/styles/sass/_modules.scss"
+			],
+			[
+				"lay",
+				"public/styles/sass/_layout.scss"
+			],
+			[
+				"_base",
+				"public/styles/sass/_base.scss"
+			],
+			[
+				"_mod",
+				"public/styles/sass/_modules.scss"
+			],
+			[
+				"_lay",
+				"public/styles/sass/_layout.scss"
+			],
+			[
+				"_header",
+				"public/styles/sass/_header.scss"
+			],
+			[
+				"_typ",
+				"public/styles/sass/_typography.scss"
+			],
+			[
+				"_main",
+				"public/js/_main.js"
+			],
+			[
+				"_plugins",
+				"public/js/_plugins.js"
+			],
+			[
+				"_head",
+				"public/styles/sass/_header.scss"
+			],
+			[
+				".md",
+				"/Users/brettmarshall/Dropbox/bm-website/collections/blog/the-audio-element.md"
+			],
+			[
+				"navigation",
+				"templates/includes/navigation.liquid"
+			],
+			[
+				"_plu",
+				"public/js/_plugins.js"
+			],
+			[
+				"projec",
+				"templates/projects.liquid"
+			],
+			[
+				"projects",
+				"templates/projects.liquid"
+			],
+			[
+				"_plugi",
+				"public/js/_plugins.js"
+			],
+			[
+				"_layou",
+				"public/styles/sass/_layout.scss"
+			],
+			[
+				"_var",
+				"public/styles/sass/_variables.scss"
+			],
+			[
+				"_ty",
+				"public/styles/sass/_typography.scss"
+			],
+			[
+				"about",
+				"templates/about.liquid"
+			],
+			[
+				"_f",
+				"public/styles/sass/_footer.scss"
+			],
+			[
+				"_foo",
+				"public/styles/sass/_footer.scss"
+			],
+			[
+				"nav",
+				"templates/includes/navigation.liquid"
+			],
+			[
+				"_pr",
+				"public/styles/sass/_prism.scss"
+			],
+			[
+				"vend",
+				"public/js/vendors.js"
+			],
+			[
+				"_pretty",
+				"public/styles/sass/_pretty.scss"
+			],
+			[
+				"ve",
+				"public/js/vendors.js"
+			],
+			[
+				"_mix",
+				"public/styles/sass/_mixins.scss"
+			],
+			[
+				"main.js",
+				"assets/js/main.js"
+			],
+			[
+				"head",
+				"templates/header-top-navbar.php"
+			],
+			[
+				"icons",
+				"assets/less/_icons.less"
+			],
+			[
+				"header",
+				"assets/less/_header.less"
+			],
+			[
+				"_modl",
+				"assets/less/_modules.less"
+			],
+			[
+				"modl",
+				"assets/css/less/modals.less"
+			],
+			[
+				"_base.less",
+				"assets/less/_base.less"
+			],
+			[
+				"mod",
+				"assets/less/_modules.less"
+			],
+			[
+				"module",
+				"assets/less/_modules.less"
+			],
+			[
+				"_profile",
+				"assets/less/_profile.less"
+			],
+			[
+				"global",
+				"assets/less/_global.less"
+			],
+			[
+				"less",
+				"assets/css/main.less"
+			],
+			[
+				"search",
+				"templates/searchform.php"
+			],
+			[
+				"footer",
+				"templates/footer.php"
+			],
+			[
+				"lib/scripts",
+				"wp-content/themes/roots/lib/scripts.php"
+			],
+			[
+				"main.less",
+				"wp-content/themes/roots/assets/css/main.less"
+			],
+			[
+				"main.min",
+				"wp-content/themes/roots/assets/css/main.min.css"
+			],
+			[
+				"/templates/head",
+				"wp-content/themes/roots/templates/head.php"
+			],
+			[
+				"main",
+				"wp-content/themes/roots/assets/css/main.less"
+			],
+			[
+				"templates/foot",
+				"wp-content/themes/roots/templates/footer.php"
+			],
+			[
+				"content-blog",
+				"wp-content/themes/roots/templates/content-blog.php"
+			],
+			[
+				"templates/head",
+				"wp-content/themes/roots/templates/head.php"
+			],
+			[
+				"base",
+				"wp-content/themes/roots/base.php"
+			],
+			[
+				"templates/",
+				"wp-content/themes/roots/templates/content-blog.php"
+			],
+			[
+				"roots/head",
+				"wp-content/themes/roots/templates/header-top-navbar.php"
+			],
+			[
+				"roots/index",
+				"wp-content/themes/roots/index.php"
+			],
+			[
+				".less",
+				"wp-content/themes/roots/assets/css/main.less"
+			],
+			[
+				"roots/header",
+				"wp-content/themes/roots/templates/header-top-navbar.php"
+			],
+			[
+				"roots/home",
+				"wp-content/themes/roots/templates/content-home.php"
+			],
+			[
+				"roots/scripts",
+				"wp-content/themes/roots/lib/scripts.php"
+			],
+			[
+				"roots/custom.php",
+				"wp-content/themes/roots/lib/custom.php"
+			],
+			[
+				"plugins.js",
+				"wp-content/themes/my_theme/assets/js/plugins.js"
+			],
+			[
+				"page",
+				"page.html"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"pag",
+				"page.html"
+			],
+			[
+				"base.php",
+				"base.php"
+			],
+			[
+				"scripts",
+				"lib/scripts.php"
+			],
+			[
+				"social",
+				"roots/templates/social.php"
+			],
+			[
+				"blog",
+				"roots/templates/content-blog.php"
+			],
+			[
+				"home",
+				"roots/templates/content-home.php"
+			],
+			[
+				"plugins",
+				"roots/assets/js/plugins.js"
+			],
+			[
+				"custom",
+				"roots/lib/custom.php"
+			],
+			[
+				"script",
+				"roots/lib/scripts.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"foot",
+				"/Users/brettmarshall/Dropbox/football_blog/sidelineblitz.sublime-project"
+			],
+			[
+				"side",
+				"/Users/brettmarshall/Dropbox/football_blog/sidelineblitz.sublime-project"
+			],
+			[
+				"ccrg",
+				"/Applications/MAMP/htdocs/ccrg/ccrg.sublime-project"
+			],
+			[
+				"",
+				"/Users/brettmarshall/Dropbox/football_blog/sidelineblitz.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 315.0,
+	"status_bar_visible": true
+}

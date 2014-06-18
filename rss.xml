@@ -1,0 +1,204 @@
+
+
+<rss version="2.0">
+  <channel>
+    <generator>Mixture</generator>
+    <title>Brett Marshall | Front End Web Developer</title>
+    <link>http://brett-marshall.com</link>
+    <description>Hi, I'm Brett Marshall, a Front End Developer living in Sunny San Diego.</description>
+    <language>en</language>
+    <webMaster>me@brett-marshall.com</webMaster>
+    <copyright>2014 Name</copyright>
+    <pubDate></pubDate>
+    <lastBuildDate></lastBuildDate>
+    
+      
+      <item>
+        <title>A PHP Instagram Feed</title>
+        <link>/blog/php-instagram-feed</link>
+        <guid>/blog/php-instagram-feed</guid>
+        <pubDate>Fri, 27 Dec 2013 13:00:00 GMT</pubDate>
+        <description>
+I love working with social APIs. When working, they allow me to create social features within my websites. Some APIs are easier than others. Instagram for instance is incredibly easy to code. The administrative setup however, can stall devs before they reap the benefits of the Instagram API. For instance, I still haven&amp;#8217;t found a way in the Instagram documentation to get my user id, or access token. I ended up finding a 3rd party site to find both.
+
+The following code allows you to plug in the user id, client id, access token and count; this is used in a foreach loop to output images from Instagram based on the values supplied in the variables.
+
+// http://jelled.com/instagram/lookup-user-id/
+$userid = &quot;idGoesHere&quot;;
+
+// http://instagram.com/developer/
+$clientid = &quot;clientIdGoesHere&quot;;
+
+// http://jelled.com/instagram/access-token/
+$accessToken = &quot;tokenGoesHere&quot;;
+
+// number of photos to return
+$count = &quot;5&quot;;
+
+// Gets our data
+function fetchData($url){
+     $ch = curl_init();
+     curl_setopt($ch, CURLOPT_URL, $url);
+     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+     curl_setopt($ch, CURLOPT_TIMEOUT, 20);
+     $result = curl_exec($ch);
+     curl_close($ch); 
+     return $result;
+}
+
+// Pulls and parses data.
+$result = fetchData(&quot;https://api.instagram.com/v1/users/{$userid}/media/recent/?access_token={$accessToken}&amp;amp;count={$count}&quot;);
+$result = json_decode($result);
+
+// cycles through the json tree and uses the low res url in the img tag
+if($result) {
+    foreach ($result-&amp;gt;data as $post) :
+	    echo '&amp;lt;img src=&quot;' . $post-&amp;gt;images-&amp;gt;low_resolution-&amp;gt;url . '&quot; /&amp;gt;';
+	endforeach;
+}	
+
+
+I&amp;#8217;ve done this client side as well, but I find it easier to use PHP here. I feel I gain some performance advantage since this works on the server instead of client side. Do you disagree? How to you build your Instagram feeds?
+</description>
+      </item>
+     
+      <item>
+        <title>Reducing Website Speed, with Sprites and PNG Compression</title>
+        <link>/blog/sprites-png-compression</link>
+        <guid>/blog/sprites-png-compression</guid>
+        <pubDate>Tue, 24 Dec 2013 09:00:00 GMT</pubDate>
+        <description>
+Sprites have been around for awhile now, so most likely at some point in time, you’ve created or worked with sprites. There are a couple different ways to create sprites nowadays, you can use SCSS to automatically creates sprites, you can use a user interface or you can do it the old-school way using Photoshop. I started creating sprites the old fashion way, using Photoshop, as probably most people have. That&amp;#8217;s hard and tedious. In terms of using SCSS to automate the process, I really haven&amp;#8217;t looked into it too much. Its kind of intimidating, based on looking at the documentation and seems somewhat limited.
+
+I come from a graphic design background, so anytime I can use something visual, that&amp;#8217;s my preference. So I went hunting for tools, and came across SpritePad. 
+
+
+	
+	Example Sprite
+
+
+This tool makes it extremely simple to create sprites. You just drag and drop your images on the canvas, and it creates the CSS for you in the right sidebar using the file name as the class. Once placed, you can keep dragging and dropping graphics until you are satisfied, then save and download a zip file. The zip contains a sprites.png and a CSS file.
+
+I started creating sprites the old fashion way, using Photoshop, as probably most people have. That's hard and tedious.
+
+So, we’re pretty set. We have a PNG and CSS file, with the ability to go back later and make additional changes. Now, how about we reduce the size of that PNG by about 50-70%. Check out TinyPng, I use this on a regular basis and it shrinks PNGs smaller than Photoshop, without a reduction in quality.
+
+Now, there is one catch, once you run it through TinyPng, you can’t open it in Photoshop. It saves it in a format the Photoshop can’t understand, but works in every browser, so don’t worry about that. I suggest keeping a “full res” copy and a “TinyPng” copy, just in case.
+
+So there is one remaining question, what about retina images? That’s a good question. I’ve looked into this a bit, but not extensively. In theory, you could export 2x images and use them when creating the sprite.  Then just shrink it by 50% in Photoshop, before optimizing with TinyPng. I’ve been a bit hesitant to use responsive sprites, only because of how background images work.When you shrink the containing element with a background image, there’s strong possibility that you’ll cut off the intended image, or make other images visible if expanded too much.
+
+What do you use for sprites and image compression?
+</description>
+      </item>
+     
+      <item>
+        <title>My Toolkit</title>
+        <link>/blog/my-toolkit</link>
+        <guid>/blog/my-toolkit</guid>
+        <pubDate>Tue, 24 Dec 2013 07:12:41 GMT</pubDate>
+        <description>
+Having the right tools at your disposal can be the difference between an efficient developer or an inefficient developer. I think we all start out pretty inefficient. But over the last couple of years, I have really tried to experiment and see what gives me the best workflow. I’ve compiled a list of my tools, for my home computer ( mac ), and my office computer ( pc ).
+
+Platform
+Almost every project I do is a WordPress project, both at home and at work. Since I work with WordPress everyday I’ve become really comfortable with it, allowing me to build things faster instead of learning while building. We also build eCommerce sites, for those, we use Magento. It’s bulky, has a million files and doesn’t have great documentation. On the plus side, its incredibly powerful and open source.
+
+WordPress Plugins
+There are two plugins that I use on every project, Advanced Custom Fields and Custom Content Type Manager. These two plugins allow me to create awesome backend experiences for creating / updating content. They also provide easy ways to query the data, this makes building dynamic content incredibly easy.
+
+CSS / PreProcessors
+OK, so I use both LESS and SCSS. At work, I use LESS. We decided on LESS because it was most like CSS. I had some trouble getting us to adopt preprocessors, so I was satisfied with LESS. At home however, I use SCSS. For me, the edge goes to SCSS because of Compass’ CSS3 mixins. There is one constant between work and home, the GUI I use to manage the preprocessing. I started out using free solutions like WinLess and LessApp. But those were missing some features and we’re totally polished. From there, I moved to CodeKit. This worked for home use, but their wasn’t a PC version. So, I kept looking and stumbled upon Mixture.io. It works as a preprocessor of images, CSS and JS files, allowing for magnification and concatenation simultaneously. This really helps for keeping files sizes down and the number of http requests. It also spins up a local server from any location on your computer. They even give you a unique url for this server that you can visit with mobile devices. This allows you to have your 4-5 devices running the website at the same time, while styling with CSS injections, pretty awesome. Mixture also is a static site generator as well, in fact this website is built using Mixture.
+
+Local Development
+This is is pretty standard, for work I use WAMP and for home I use MAMP. These are pretty much the same, especially if you mostly deal with phpMyAdmin. The only real difference is the directory where you put your files.
+
+Version Control
+At work and at home I use version control. At work, we use Mercurial as our VC system, BitBucket to host the files, and TortoiseHg and the GUI. At home, I use Git as my VC system, BitBucket / GitHub to host the files, and SourceTree / GitHub app as my GUI. Both workflows work fairly well. Github is cool for the social aspect, and that you can host static websites from Github Pages. But, if you want a private repo for free, I’d check out BitBucket.
+
+FTP
+I use free solutions at work and home, when it comes to FTP clients. At home, I use CyberDuck / FileZilla. At work, I use FileZilla. Both work well, I think FileZilla is a bit more comprehensive though.
+
+What are some of the tools you use?
+</description>
+      </item>
+     
+      <item>
+        <title>My Experience with the Audio Element</title>
+        <link>/blog/the-audio-element</link>
+        <guid>/blog/the-audio-element</guid>
+        <pubDate>Wed, 04 Dec 2013 02:01:47 GMT</pubDate>
+        <description>
+About a month ago at work, I was tasked with developing a musician&amp;#8217;s site, which involved audio playback. The problem was, I hadn&amp;#8217;t dealt with web audio since Flash&amp;#8230;yeah I said it, Flash. I wasn&amp;#8217;t sure where to start, one saving grace was that we agreed to use HTML5 audio and not worry about supporting IE8/7. I&amp;#8217;m a proponent of progressive enhancement, but I was given the project on a Wednesday and it was due on Friday. Now, you may be thinking, why not use something tested, like an audio equivalent to Vimeo. But, with the design I was given, I had to build something completely custom. That&amp;#8217;s when I discovered my now good friend, the audio element.
+
+This site&amp;#8217;s objectives were fairly straight forward:
+
+
+  Click on album art, to play / pause.
+  Click on the previous / next to cycle through the album art, starting and stoping audio
+  After the audio clip is over, reset it to the beginning so it can be replayed
+
+
+I was able to do everything just using the native audio methods except for an event listener for when the track ended, so I could reset the clip. For this, I used audio.js. It provides a flash fallback, but because of the deadline, I didnt have a chance to testing it. Now, let&amp;#8217;s dive in.
+
+So, below is an example of an audio element, pretty easy huh?
+
+&amp;lt;audio src=&quot;audio-demo.mp3&quot; id=&quot;audio&quot; preload=&quot;auto&quot; /&amp;gt;
+
+Now, how can we control it. For this project, I used mostly jQuery and some vanilla JS. The first thing I noticed was that the audio methods didnt work with jquery selectors. I was able to select it two ways:
+
+var audio = document.getElementByID('foo');
+// or
+var audio = $('.bar').get(0);
+
+
+Here&amp;#8217;s a full example, first the HTML.
+
+&amp;lt;button class=&quot;play&quot;&amp;gt;Play&amp;lt;/button&amp;gt;
+&amp;lt;button class=&quot;pause&quot;&amp;gt;Pause&amp;lt;/button&amp;gt;
+
+&amp;lt;audio src=&quot;myFile.mp3&quot; id=&quot;audio&quot; preload=&quot;auto&quot; /&amp;gt;
+
+
+Second, the JS.
+
+jQuery(document).ready(function($)	{
+	// saving #audio as a variable
+	var audio = $('#audio').get(0);
+
+	// when the play button is clicked, play the audio 
+	$('.play').click(function()	{
+		audio.play();
+	});
+
+	// when the pause button is clicked, pause the audio
+	$('.pause').click(function()	{
+		audio.pause();
+	});	
+
+	// cross browser way to have audio reset to the beginning
+	audio.src = audio.src;	
+});
+
+
+So, pretty easy stuff. Where it gets hard, is when you need to add things like loading images while the audio is loading. This is particularly helpful on mobile devices, which don&amp;#8217;t load the audio as quickly. This leads to the user repeately tapping on the &amp;#8220;play&amp;#8221; component, wondering why it&amp;#8217;s not playing. Other things that I used were the readyState to determine if the file was loaded, as well as paused to see if the audio was playing or paused / stopped.
+
+This is just a primer for you to start exploring what&amp;#8217;s possible with the audio element. For more documentation, check out MDN.
+</description>
+      </item>
+     
+      <item>
+        <title>Generating those &quot;aha&quot; moments</title>
+        <link>/blog/generating-those-aha-moments</link>
+        <guid>/blog/generating-those-aha-moments</guid>
+        <pubDate>Tue, 26 Nov 2013 21:08:53 GMT</pubDate>
+        <description>
+Most of my developer &amp;#8220;aha&amp;#8221; moments come away from the computer. Sometimes it happens just minutes after I&amp;#8217;ve been banging my head against the wall trying to figure something out. Or, sometimes it happens hours afterwards. At any rate, its made me realize, that if I took more breaks, I would have more &amp;#8220;aha&amp;#8221; moments, and we all love those. Its those moments that rekindle that spark that can be dampened by deadlines and the daily grind of a developer.
+
+It may seem counter-productive to take more breaks, after all, if you&amp;#8217;re not working, you&amp;#8217;re not getting anything done, right? I guess this could be true for some, but for me, if I can take a step out of the trenches, the path to solving a problem becomes much more clear.
+
+What do you do when you&amp;#8217;re stuck? Take a break? Power through it?
+</description>
+      </item>
+     
+   
+  </channel>
+</rss>

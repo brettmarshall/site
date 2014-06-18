@@ -1,0 +1,38 @@
+[
+  {
+    "directory": false,
+    "key": "index",
+    "name": "Index",
+    "url": "/index"
+  },
+  {
+    "directory": false,
+    "key": "about",
+    "name": "About",
+    "url": "/about"
+  },
+  {
+    "directory": false,
+    "key": "blog",
+    "name": "Blog",
+    "url": "/blog"
+  },
+  {
+    "directory": false,
+    "key": "model",
+    "name": "Model",
+    "url": "/model"
+  },
+  {
+    "directory": false,
+    "key": "projects",
+    "name": "Projects",
+    "url": "/projects"
+  },
+  {
+    "directory": false,
+    "key": "rss",
+    "name": "Rss",
+    "url": "/rss"
+  }
+]
